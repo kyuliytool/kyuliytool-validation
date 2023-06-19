@@ -217,13 +217,13 @@ class ValidationForm {
         return this;
     }
 
-    /** Null Value Default Login */
+    /** Null Value Default logic */
     public NVL(key: string, defValue: any): ValidationForm {
         this.DFVL('isNil', key, defValue);
         return this;
     }
 
-    /** Empty Value Default Login */
+    /** Empty Value Default logic */
     public EVL(key: string, defValue: any): ValidationForm {
         this.DFVL('isEmpty', key, defValue);
         return this;
